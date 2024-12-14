@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+#app {
+    width: 100vw;
+    max-width: 97vw;
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#events {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    width: 100%;
+    align-items: center;
+    padding: 1em;
+    border-top: solid 3px black;
+}
+
+.event_item {
+    width: 300px;
+    height: 450px;
+    border: solid 3px darkgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+    background-color: lightgray;
+    padding-bottom: 0.5em;
+}
+form {
+    padding-bottom: 1em;
+    padding-top: .5em;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    padding: .2em;
+}
